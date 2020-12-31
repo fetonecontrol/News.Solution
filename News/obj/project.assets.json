@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/frederickernest/Desktop/News.Solution/News.Solution.csproj",
+      "projectUniqueName": "/Users/frederickernest/Desktop/News.Solution/News/News.Solution.csproj",
       "projectName": "News.Solution",
-      "projectPath": "/Users/frederickernest/Desktop/News.Solution/News.Solution.csproj",
+      "projectPath": "/Users/frederickernest/Desktop/News.Solution/News/News.Solution.csproj",
       "packagesPath": "/Users/frederickernest/.nuget/packages/",
-      "outputPath": "/Users/frederickernest/Desktop/News.Solution/obj/",
+      "outputPath": "/Users/frederickernest/Desktop/News.Solution/News/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
