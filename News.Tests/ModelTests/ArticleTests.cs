@@ -1,18 +1,19 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 using News.Solution.Models;
 using System;
 
 namespace News.Tests
 {
   [TestClass]
-  public class NYTApiCallTests
+  public class ArticleTests
   {
     [TestMethod]
     public void DoesApiCallReturnJsonData()
     {
-      NYTApiCall apiCall = new NYTApiCall();
-      System.WriteLine(apiCall);
-      Assert.AreEqual(true, apiCall);
+      var allArticles = Article.GetNYT();
+      Console.WriteLine(allArticles);
+      Assert.AreEqual(true, allArticles);
     }
   }
 }
