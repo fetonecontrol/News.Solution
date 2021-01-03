@@ -12,7 +12,6 @@ namespace News.Tests
     public void DoesApiCallReturnJsonData()
     {
       var allArticles = Article.GetNYT();
-      Console.WriteLine(allArticles);
       Assert.AreEqual(true, allArticles);
     }
   }
